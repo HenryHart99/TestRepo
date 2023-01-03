@@ -1,0 +1,54 @@
+Look at these codes
+
+/* public static int level = 1;
+    public int max_Level;
+    public GameObject[] levelUnlocked;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        level = PlayerPrefs.GetInt("level", 1);
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        for (int i = 1; i < max_Level; i++)
+        {
+            if (i <= level)
+            {
+                levelUnlocked[i].SetActive(false);
+                Debug.Log("" + level);
+            }
+            else
+            {
+                levelUnlocked[i].SetActive(true);
+                Debug.Log("" + level);
+            }
+        }
+    }
+
+
+    public static void Next_Level()
+    {
+
+        if (level == NextLevel.theLevel)
+        {
+           level =+ 1;
+           PlayerPrefs.SetInt("level", level);
+        }
+    }
+
+    public void Reset()
+    {
+        level = 1;
+        PlayerPrefs.SetInt("level", level);
+    }
+
+    public void add_level()
+    {
+        Next_Level();
+        Application.LoadLevel("Menu Scene");
+    }*/
