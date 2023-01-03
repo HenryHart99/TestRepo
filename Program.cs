@@ -8,6 +8,8 @@ namespace EXTERNAL
 {
     class Program
     {
+        // New updates
+
         private static void Main(string[] args)
         {
             Console.WriteLine("       ------ THINK AND GUESS -------");
