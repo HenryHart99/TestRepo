@@ -8,7 +8,7 @@ namespace EXTERNAL
 {
     class Program
     {
-        // New updates
+        // New updates in the making
 
         private static void Main(string[] args)
         {
