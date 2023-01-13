@@ -1,4 +1,8 @@
 I am a Game Developer.
 And i have developed a mobile game called BEHIND THE SKYS.
+<<<<<<< HEAD
 
 whos is henry danger
+=======
+This is the moment of Cloning
+>>>>>>> 21d7fe4f38f8e80444ed018433febc7751385dc6
